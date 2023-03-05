@@ -10,5 +10,5 @@ function draw() {
   background(220);
 }
 function gotoSketch() {
-  location.replace("https://temple-ontherat.github.io/levels/sketch2.html")
+  location.replace("https://temple-ontherat.github.io/levels/sketch2.js")
 }
