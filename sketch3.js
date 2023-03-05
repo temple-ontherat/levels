@@ -9,5 +9,5 @@ function draw() {
   if (radius<200) {
      radius++;
   }
-  else {  location.replace("https://temple-ontherat.github.io/levels/index1.html")}
+  else {  location.replace("https://temple-ontherat.github.io/levels/index.html")}
 }
