@@ -5,6 +5,9 @@ function setup() {
 }
 
 function draw() {
+  if ((x==width) && (y==height)) {
+      location.replace("https://temple-ontherat.github.io/levels/index3.html")
+  }
   background(220);
   ellipse(x,y,20);
   x++;
