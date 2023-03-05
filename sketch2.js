@@ -5,17 +5,13 @@ function setup() {
 }
 
 function draw() {
-  if ((x==width) && (y==height)) {
-      location.replace("https://temple-ontherat.github.io/levels/index3.html")
-  }
   background(220);
+   if ((x==width)&&(y==height)) {
+location.replace("https://temple-ontherat.github.io/levels/index3.html");
+     x=width;
+     y=height;
+  }
+  else {x++;
+  y++;}
   ellipse(x,y,20);
-  x++;
-  y++;
-  if (x==width) {
-    x=0;
-  }
-   if (y==height) {
-    y=0;
-  }
 }
